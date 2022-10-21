@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4275EEFF2902E5BF009EDF3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EEFE2902E5BF009EDF3D /* AppDelegate.swift */; };
+		4275EF012902E5BF009EDF3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF002902E5BF009EDF3D /* SceneDelegate.swift */; };
+		4275EF082902E5C0009EDF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4275EF072902E5C0009EDF3D /* Assets.xcassets */; };
+		4275EF0B2902E5C0009EDF3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4275EF092902E5C0009EDF3D /* LaunchScreen.storyboard */; };
+		4275EF162902E5C1009EDF3D /* RappiFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF152902E5C1009EDF3D /* RappiFlixTests.swift */; };
+		4275EF202902E5C1009EDF3D /* RappiFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF1F2902E5C1009EDF3D /* RappiFlixUITests.swift */; };
+		4275EF222902E5C1009EDF3D /* RappiFlixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF212902E5C1009EDF3D /* RappiFlixUITestsLaunchTests.swift */; };
+		4275EF352902E6CD009EDF3D /* HomeInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF2F2902E6CC009EDF3D /* HomeInterfaces.swift */; };
+		4275EF362902E6CD009EDF3D /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF302902E6CD009EDF3D /* HomePresenter.swift */; };
+		4275EF372902E6CD009EDF3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF312902E6CD009EDF3D /* HomeViewController.swift */; };
+		4275EF382902E6CD009EDF3D /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF322902E6CD009EDF3D /* HomeInteractor.swift */; };
+		4275EF392902E6CD009EDF3D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4275EF332902E6CD009EDF3D /* HomeViewController.xib */; };
+		4275EF3A2902E6CD009EDF3D /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF342902E6CD009EDF3D /* HomeWireframe.swift */; };
+		4275EF3E2902E74D009EDF3D /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF3D2902E74D009EDF3D /* BaseWireframe.swift */; };
+		4275EF402902E813009EDF3D /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF3F2902E813009EDF3D /* ViewInterface.swift */; };
+		4275EF562902E8FE009EDF3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4275EF552902E8FE009EDF3D /* QuartzCore.framework */; };
+		4275EF6A2902EAE8009EDF3D /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF692902EAE8009EDF3D /* ProgressHUD.swift */; };
+		4275EF6F2902EBB6009EDF3D /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 4275EF6E2902EBB6009EDF3D /* Algorithms */; };
+		4275EF712902EC3E009EDF3D /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF702902EC3E009EDF3D /* PresenterInterface.swift */; };
+		4275EF732902EC47009EDF3D /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF722902EC47009EDF3D /* InteractorInterface.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4275EF122902E5C1009EDF3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4275EEF32902E5BF009EDF3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4275EEFA2902E5BF009EDF3D;
+			remoteInfo = RappiFlix;
+		};
+		4275EF1C2902E5C1009EDF3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4275EEF32902E5BF009EDF3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4275EEFA2902E5BF009EDF3D;
+			remoteInfo = RappiFlix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4275EEFB2902E5BF009EDF3D /* RappiFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RappiFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4275EEFE2902E5BF009EDF3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4275EF002902E5BF009EDF3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4275EF072902E5C0009EDF3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4275EF0A2902E5C0009EDF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4275EF0C2902E5C0009EDF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4275EF112902E5C1009EDF3D /* RappiFlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RappiFlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4275EF152902E5C1009EDF3D /* RappiFlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiFlixTests.swift; sourceTree = "<group>"; };
+		4275EF1B2902E5C1009EDF3D /* RappiFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RappiFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4275EF1F2902E5C1009EDF3D /* RappiFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiFlixUITests.swift; sourceTree = "<group>"; };
+		4275EF212902E5C1009EDF3D /* RappiFlixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappiFlixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4275EF2F2902E6CC009EDF3D /* HomeInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInterfaces.swift; sourceTree = "<group>"; };
+		4275EF302902E6CD009EDF3D /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		4275EF312902E6CD009EDF3D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4275EF322902E6CD009EDF3D /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		4275EF332902E6CD009EDF3D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		4275EF342902E6CD009EDF3D /* HomeWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
+		4275EF3D2902E74D009EDF3D /* BaseWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		4275EF3F2902E813009EDF3D /* ViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
+		4275EF552902E8FE009EDF3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4275EF692902EAE8009EDF3D /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
+		4275EF702902EC3E009EDF3D /* PresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
+		4275EF722902EC47009EDF3D /* InteractorInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4275EEF82902E5BF009EDF3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4275EF6F2902EBB6009EDF3D /* Algorithms in Frameworks */,
+				4275EF562902E8FE009EDF3D /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275EF0E2902E5C1009EDF3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275EF182902E5C1009EDF3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4275EEF22902E5BF009EDF3D = {
+			isa = PBXGroup;
+			children = (
+				4275EEFD2902E5BF009EDF3D /* RappiFlix */,
+				4275EF142902E5C1009EDF3D /* RappiFlixTests */,
+				4275EF1E2902E5C1009EDF3D /* RappiFlixUITests */,
+				4275EEFC2902E5BF009EDF3D /* Products */,
+				4275EF542902E8FE009EDF3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4275EEFC2902E5BF009EDF3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4275EEFB2902E5BF009EDF3D /* RappiFlix.app */,
+				4275EF112902E5C1009EDF3D /* RappiFlixTests.xctest */,
+				4275EF1B2902E5C1009EDF3D /* RappiFlixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4275EEFD2902E5BF009EDF3D /* RappiFlix */ = {
+			isa = PBXGroup;
+			children = (
+				4275EF3B2902E73C009EDF3D /* Common */,
+				4275EF2E2902E5D1009EDF3D /* Modules */,
+				4275EEFE2902E5BF009EDF3D /* AppDelegate.swift */,
+				4275EF002902E5BF009EDF3D /* SceneDelegate.swift */,
+				4275EF072902E5C0009EDF3D /* Assets.xcassets */,
+				4275EF092902E5C0009EDF3D /* LaunchScreen.storyboard */,
+				4275EF0C2902E5C0009EDF3D /* Info.plist */,
+			);
+			path = RappiFlix;
+			sourceTree = "<group>";
+		};
+		4275EF142902E5C1009EDF3D /* RappiFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				4275EF152902E5C1009EDF3D /* RappiFlixTests.swift */,
+			);
+			path = RappiFlixTests;
+			sourceTree = "<group>";
+		};
+		4275EF1E2902E5C1009EDF3D /* RappiFlixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4275EF1F2902E5C1009EDF3D /* RappiFlixUITests.swift */,
+				4275EF212902E5C1009EDF3D /* RappiFlixUITestsLaunchTests.swift */,
+			);
+			path = RappiFlixUITests;
+			sourceTree = "<group>";
+		};
+		4275EF2E2902E5D1009EDF3D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4275EF2F2902E6CC009EDF3D /* HomeInterfaces.swift */,
+				4275EF302902E6CD009EDF3D /* HomePresenter.swift */,
+				4275EF312902E6CD009EDF3D /* HomeViewController.swift */,
+				4275EF322902E6CD009EDF3D /* HomeInteractor.swift */,
+				4275EF332902E6CD009EDF3D /* HomeViewController.xib */,
+				4275EF342902E6CD009EDF3D /* HomeWireframe.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4275EF3B2902E73C009EDF3D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4275EF412902E8A5009EDF3D /* Libraries */,
+				4275EF3C2902E743009EDF3D /* Viper */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4275EF3C2902E743009EDF3D /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				4275EF722902EC47009EDF3D /* InteractorInterface.swift */,
+				4275EF702902EC3E009EDF3D /* PresenterInterface.swift */,
+				4275EF3D2902E74D009EDF3D /* BaseWireframe.swift */,
+				4275EF3F2902E813009EDF3D /* ViewInterface.swift */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		4275EF412902E8A5009EDF3D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				4275EF692902EAE8009EDF3D /* ProgressHUD.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		4275EF542902E8FE009EDF3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4275EF552902E8FE009EDF3D /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4275EEFA2902E5BF009EDF3D /* RappiFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4275EF252902E5C1009EDF3D /* Build configuration list for PBXNativeTarget "RappiFlix" */;
+			buildPhases = (
+				4275EEF72902E5BF009EDF3D /* Sources */,
+				4275EEF82902E5BF009EDF3D /* Frameworks */,
+				4275EEF92902E5BF009EDF3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RappiFlix;
+			packageProductDependencies = (
+				4275EF6E2902EBB6009EDF3D /* Algorithms */,
+			);
+			productName = RappiFlix;
+			productReference = 4275EEFB2902E5BF009EDF3D /* RappiFlix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4275EF102902E5C1009EDF3D /* RappiFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4275EF282902E5C1009EDF3D /* Build configuration list for PBXNativeTarget "RappiFlixTests" */;
+			buildPhases = (
+				4275EF0D2902E5C1009EDF3D /* Sources */,
+				4275EF0E2902E5C1009EDF3D /* Frameworks */,
+				4275EF0F2902E5C1009EDF3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4275EF132902E5C1009EDF3D /* PBXTargetDependency */,
+			);
+			name = RappiFlixTests;
+			productName = RappiFlixTests;
+			productReference = 4275EF112902E5C1009EDF3D /* RappiFlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4275EF1A2902E5C1009EDF3D /* RappiFlixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4275EF2B2902E5C1009EDF3D /* Build configuration list for PBXNativeTarget "RappiFlixUITests" */;
+			buildPhases = (
+				4275EF172902E5C1009EDF3D /* Sources */,
+				4275EF182902E5C1009EDF3D /* Frameworks */,
+				4275EF192902E5C1009EDF3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4275EF1D2902E5C1009EDF3D /* PBXTargetDependency */,
+			);
+			name = RappiFlixUITests;
+			productName = RappiFlixUITests;
+			productReference = 4275EF1B2902E5C1009EDF3D /* RappiFlixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4275EEF32902E5BF009EDF3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4275EEFA2902E5BF009EDF3D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					4275EF102902E5C1009EDF3D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4275EEFA2902E5BF009EDF3D;
+					};
+					4275EF1A2902E5C1009EDF3D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4275EEFA2902E5BF009EDF3D;
+					};
+				};
+			};
+			buildConfigurationList = 4275EEF62902E5BF009EDF3D /* Build configuration list for PBXProject "RappiFlix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4275EEF22902E5BF009EDF3D;
+			packageReferences = (
+				4275EF6D2902EBB6009EDF3D /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
+			productRefGroup = 4275EEFC2902E5BF009EDF3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4275EEFA2902E5BF009EDF3D /* RappiFlix */,
+				4275EF102902E5C1009EDF3D /* RappiFlixTests */,
+				4275EF1A2902E5C1009EDF3D /* RappiFlixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4275EEF92902E5BF009EDF3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4275EF0B2902E5C0009EDF3D /* LaunchScreen.storyboard in Resources */,
+				4275EF082902E5C0009EDF3D /* Assets.xcassets in Resources */,
+				4275EF392902E6CD009EDF3D /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275EF0F2902E5C1009EDF3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275EF192902E5C1009EDF3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4275EEF72902E5BF009EDF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4275EF732902EC47009EDF3D /* InteractorInterface.swift in Sources */,
+				4275EF352902E6CD009EDF3D /* HomeInterfaces.swift in Sources */,
+				4275EF3A2902E6CD009EDF3D /* HomeWireframe.swift in Sources */,
+				4275EF712902EC3E009EDF3D /* PresenterInterface.swift in Sources */,
+				4275EEFF2902E5BF009EDF3D /* AppDelegate.swift in Sources */,
+				4275EF3E2902E74D009EDF3D /* BaseWireframe.swift in Sources */,
+				4275EF402902E813009EDF3D /* ViewInterface.swift in Sources */,
+				4275EF362902E6CD009EDF3D /* HomePresenter.swift in Sources */,
+				4275EF012902E5BF009EDF3D /* SceneDelegate.swift in Sources */,
+				4275EF372902E6CD009EDF3D /* HomeViewController.swift in Sources */,
+				4275EF6A2902EAE8009EDF3D /* ProgressHUD.swift in Sources */,
+				4275EF382902E6CD009EDF3D /* HomeInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275EF0D2902E5C1009EDF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4275EF162902E5C1009EDF3D /* RappiFlixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4275EF172902E5C1009EDF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4275EF222902E5C1009EDF3D /* RappiFlixUITestsLaunchTests.swift in Sources */,
+				4275EF202902E5C1009EDF3D /* RappiFlixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4275EF132902E5C1009EDF3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4275EEFA2902E5BF009EDF3D /* RappiFlix */;
+			targetProxy = 4275EF122902E5C1009EDF3D /* PBXContainerItemProxy */;
+		};
+		4275EF1D2902E5C1009EDF3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4275EEFA2902E5BF009EDF3D /* RappiFlix */;
+			targetProxy = 4275EF1C2902E5C1009EDF3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4275EF092902E5C0009EDF3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4275EF0A2902E5C0009EDF3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4275EF232902E5C1009EDF3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4275EF242902E5C1009EDF3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4275EF262902E5C1009EDF3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XK5CRCQN9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RappiFlix/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RappiFlix;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunocardenas.RappiFlix.RappiFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4275EF272902E5C1009EDF3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XK5CRCQN9Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RappiFlix/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RappiFlix;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunocardenas.RappiFlix.RappiFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4275EF292902E5C1009EDF3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunocardenas.RappiFlix.RappiFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RappiFlix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RappiFlix";
+			};
+			name = Debug;
+		};
+		4275EF2A2902E5C1009EDF3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunocardenas.RappiFlix.RappiFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RappiFlix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RappiFlix";
+			};
+			name = Release;
+		};
+		4275EF2C2902E5C1009EDF3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunocardenas.RappiFlix.RappiFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RappiFlix;
+			};
+			name = Debug;
+		};
+		4275EF2D2902E5C1009EDF3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunocardenas.RappiFlix.RappiFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RappiFlix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4275EEF62902E5BF009EDF3D /* Build configuration list for PBXProject "RappiFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4275EF232902E5C1009EDF3D /* Debug */,
+				4275EF242902E5C1009EDF3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4275EF252902E5C1009EDF3D /* Build configuration list for PBXNativeTarget "RappiFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4275EF262902E5C1009EDF3D /* Debug */,
+				4275EF272902E5C1009EDF3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4275EF282902E5C1009EDF3D /* Build configuration list for PBXNativeTarget "RappiFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4275EF292902E5C1009EDF3D /* Debug */,
+				4275EF2A2902E5C1009EDF3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4275EF2B2902E5C1009EDF3D /* Build configuration list for PBXNativeTarget "RappiFlixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4275EF2C2902E5C1009EDF3D /* Debug */,
+				4275EF2D2902E5C1009EDF3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4275EF6D2902EBB6009EDF3D /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4275EF6E2902EBB6009EDF3D /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4275EF6D2902EBB6009EDF3D /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4275EEF32902E5BF009EDF3D /* Project object */;
+}
