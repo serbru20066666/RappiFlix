@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15E94A2B2907017E007BC7E8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E94A2A2907017E007BC7E8 /* Constants.swift */; };
+		15E94A3229070296007BC7E8 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E94A2D29070296007BC7E8 /* RestClient.swift */; };
+		15E94A3329070296007BC7E8 /* ClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E94A2E29070296007BC7E8 /* ClientConfiguration.swift */; };
+		15E94A3429070296007BC7E8 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E94A2F29070296007BC7E8 /* NetworkingError.swift */; };
+		15E94A3529070296007BC7E8 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E94A3029070296007BC7E8 /* HTTPMethod.swift */; };
+		15E94A3629070296007BC7E8 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E94A3129070296007BC7E8 /* Resource.swift */; };
 		4275EEFF2902E5BF009EDF3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EEFE2902E5BF009EDF3D /* AppDelegate.swift */; };
 		4275EF012902E5BF009EDF3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF002902E5BF009EDF3D /* SceneDelegate.swift */; };
 		4275EF082902E5C0009EDF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4275EF072902E5C0009EDF3D /* Assets.xcassets */; };
@@ -46,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15E94A2A2907017E007BC7E8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		15E94A2D29070296007BC7E8 /* RestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		15E94A2E29070296007BC7E8 /* ClientConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientConfiguration.swift; sourceTree = "<group>"; };
+		15E94A2F29070296007BC7E8 /* NetworkingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		15E94A3029070296007BC7E8 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		15E94A3129070296007BC7E8 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		4275EEFB2902E5BF009EDF3D /* RappiFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RappiFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4275EEFE2902E5BF009EDF3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4275EF002902E5BF009EDF3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +109,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15E94A2C2907028B007BC7E8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				15E94A2E29070296007BC7E8 /* ClientConfiguration.swift */,
+				15E94A3029070296007BC7E8 /* HTTPMethod.swift */,
+				15E94A2F29070296007BC7E8 /* NetworkingError.swift */,
+				15E94A3129070296007BC7E8 /* Resource.swift */,
+				15E94A2D29070296007BC7E8 /* RestClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		4275EEF22902E5BF009EDF3D = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +145,7 @@
 		4275EEFD2902E5BF009EDF3D /* RappiFlix */ = {
 			isa = PBXGroup;
 			children = (
+				15E94A2C2907028B007BC7E8 /* Networking */,
 				4275EF3B2902E73C009EDF3D /* Common */,
 				4275EF2E2902E5D1009EDF3D /* Modules */,
 				4275EEFE2902E5BF009EDF3D /* AppDelegate.swift */,
@@ -167,6 +192,7 @@
 			children = (
 				4275EF412902E8A5009EDF3D /* Libraries */,
 				4275EF3C2902E743009EDF3D /* Viper */,
+				15E94A2A2907017E007BC7E8 /* Constants.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -335,15 +361,21 @@
 			files = (
 				4275EF732902EC47009EDF3D /* InteractorInterface.swift in Sources */,
 				4275EF352902E6CD009EDF3D /* HomeInterfaces.swift in Sources */,
+				15E94A3429070296007BC7E8 /* NetworkingError.swift in Sources */,
 				4275EF3A2902E6CD009EDF3D /* HomeWireframe.swift in Sources */,
 				4275EF712902EC3E009EDF3D /* PresenterInterface.swift in Sources */,
 				4275EEFF2902E5BF009EDF3D /* AppDelegate.swift in Sources */,
 				4275EF3E2902E74D009EDF3D /* BaseWireframe.swift in Sources */,
 				4275EF402902E813009EDF3D /* ViewInterface.swift in Sources */,
+				15E94A2B2907017E007BC7E8 /* Constants.swift in Sources */,
+				15E94A3629070296007BC7E8 /* Resource.swift in Sources */,
 				4275EF362902E6CD009EDF3D /* HomePresenter.swift in Sources */,
+				15E94A3329070296007BC7E8 /* ClientConfiguration.swift in Sources */,
 				4275EF012902E5BF009EDF3D /* SceneDelegate.swift in Sources */,
+				15E94A3529070296007BC7E8 /* HTTPMethod.swift in Sources */,
 				4275EF372902E6CD009EDF3D /* HomeViewController.swift in Sources */,
 				4275EF6A2902EAE8009EDF3D /* ProgressHUD.swift in Sources */,
+				15E94A3229070296007BC7E8 /* RestClient.swift in Sources */,
 				4275EF382902E6CD009EDF3D /* HomeInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
