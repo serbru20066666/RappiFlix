@@ -13,6 +13,7 @@
 		15E94A3429070296007BC7E8 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E94A2F29070296007BC7E8 /* NetworkingError.swift */; };
 		15E94A3529070296007BC7E8 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E94A3029070296007BC7E8 /* HTTPMethod.swift */; };
 		15E94A3629070296007BC7E8 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E94A3129070296007BC7E8 /* Resource.swift */; };
+		15E94A3829070D25007BC7E8 /* MarvelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E94A3729070D25007BC7E8 /* MarvelAPI.swift */; };
 		4275EEFF2902E5BF009EDF3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EEFE2902E5BF009EDF3D /* AppDelegate.swift */; };
 		4275EF012902E5BF009EDF3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275EF002902E5BF009EDF3D /* SceneDelegate.swift */; };
 		4275EF082902E5C0009EDF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4275EF072902E5C0009EDF3D /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		15E94A2F29070296007BC7E8 /* NetworkingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
 		15E94A3029070296007BC7E8 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		15E94A3129070296007BC7E8 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		15E94A3729070D25007BC7E8 /* MarvelAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI.swift; sourceTree = "<group>"; };
 		4275EEFB2902E5BF009EDF3D /* RappiFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RappiFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4275EEFE2902E5BF009EDF3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4275EF002902E5BF009EDF3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				15E94A2F29070296007BC7E8 /* NetworkingError.swift */,
 				15E94A3129070296007BC7E8 /* Resource.swift */,
 				15E94A2D29070296007BC7E8 /* RestClient.swift */,
+				15E94A3729070D25007BC7E8 /* MarvelAPI.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				4275EF732902EC47009EDF3D /* InteractorInterface.swift in Sources */,
 				4275EF352902E6CD009EDF3D /* HomeInterfaces.swift in Sources */,
 				15E94A3429070296007BC7E8 /* NetworkingError.swift in Sources */,
+				15E94A3829070D25007BC7E8 /* MarvelAPI.swift in Sources */,
 				4275EF3A2902E6CD009EDF3D /* HomeWireframe.swift in Sources */,
 				4275EF712902EC3E009EDF3D /* PresenterInterface.swift in Sources */,
 				4275EEFF2902E5BF009EDF3D /* AppDelegate.swift in Sources */,
